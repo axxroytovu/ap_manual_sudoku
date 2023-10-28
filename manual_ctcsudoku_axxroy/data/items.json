@@ -38,43 +38,43 @@
 	{
 		"count": "10",
 		"name": "Reveal Puzzle Average Time",
-		"category": [],
+		"category": ["Boon"],
 		"useful": true
 	},
 	{
 		"count": "5",
 		"name": "Puzzle Skip",
-		"category": [],
+		"category": ["Boon"],
 		"useful": true
 	},
 	{
 		"count":1,
-		"name": "Extra Puzzle:  100",
-		"category": [],
+		"name": "Extra Puzzle - 100",
+		"category": ["Trap"],
 		"trap": true
 	},
 	{
 		"count":1,
-		"name": "Extra Puzzle:  101",
-		"category": [],
+		"name": "Extra Puzzle - 101",
+		"category": ["Trap"],
 		"trap": true
 	},
 	{
 		"count":1,
-		"name": "Extra Puzzle:  102",
-		"category": [],
+		"name": "Extra Puzzle - 102",
+		"category": ["Trap"],
 		"trap": true
 	},
 	{
 		"count":1,
-		"name": "Extra Puzzle:  103",
-		"category": [],
+		"name": "Extra Puzzle - 103",
+		"category": ["Trap"],
 		"trap": true
 	},
 	{
 		"count":1,
-		"name": "Extra Puzzle:  104",
-		"category": [],
+		"name": "Extra Puzzle - 104",
+		"category": ["Trap"],
 		"trap": true
 	}
 ]
