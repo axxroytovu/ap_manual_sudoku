@@ -1,0 +1,80 @@
+[
+	{
+		"count":1,
+		"name": "Positional Key",
+		"category": ["Key"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Parity Key",
+		"category": ["Key"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Summation Key",
+		"category": ["Key"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Variant Key",
+		"category": ["Key"],
+		"progression": true
+	},
+	{
+		"count":1,
+		"name": "Multi-Rule Key",
+		"category": ["Key"],
+		"progression": true
+	},
+	{
+		"count": "15",
+		"name": "Gauntlet Key",
+		"category": ["Key"],
+		"progression": true
+	},
+	{
+		"count": "10",
+		"name": "Reveal Puzzle Average Time",
+		"category": [],
+		"useful": true
+	},
+	{
+		"count": "5",
+		"name": "Puzzle Skip",
+		"category": [],
+		"useful": true
+	},
+	{
+		"count":1,
+		"name": "Extra Puzzle:  100",
+		"category": [],
+		"trap": true
+	},
+	{
+		"count":1,
+		"name": "Extra Puzzle:  101",
+		"category": [],
+		"trap": true
+	},
+	{
+		"count":1,
+		"name": "Extra Puzzle:  102",
+		"category": [],
+		"trap": true
+	},
+	{
+		"count":1,
+		"name": "Extra Puzzle:  103",
+		"category": [],
+		"trap": true
+	},
+	{
+		"count":1,
+		"name": "Extra Puzzle:  104",
+		"category": [],
+		"trap": true
+	}
+]

@@ -1,0 +1,297 @@
+[
+	{
+		"name": "Final Challenge: GAS Leak Bonus Vol 1",
+		"region": "Multi-Rule Sudoku",
+		"victory": true,
+		"category": ["Victory Gauntlet"],
+		"requires": "|Gauntlet Key:10|"
+	},
+	{
+		"name": "Puzzle 21: Classic",
+		"region": "Classic Sudoku",
+		"category": ["Classic Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 40: NO",
+		"region": "Classic Sudoku",
+		"category": ["Classic Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 58:  129 Snowflake",
+		"region": "Classic Sudoku",
+		"category": ["Classic Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 79: TT Krayt Dino",
+		"region": "Classic Sudoku",
+		"category": ["Classic Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 109: Classic Sudoku",
+		"region": "Classic Sudoku",
+		"category": ["Classic Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 122: Nein Nines",
+		"region": "Classic Sudoku",
+		"category": ["Classic Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 128: Eeeeevil Sudoku",
+		"region": "Classic Sudoku",
+		"category": ["Classic Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 133: Classic Sudoku",
+		"region": "Classic Sudoku",
+		"category": ["Classic Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 2: Killer",
+		"region": "Summation Sudoku",
+		"category": ["Summation Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 4: Arrow",
+		"region": "Summation Sudoku",
+		"category": ["Summation Sudoku"],
+		"requires": []
+	},
+	{
+		"region": "Summation Sudoku",
+		"name": "Puzzle 25: Sandwich",
+		"category": ["Summation Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 35: Arrow Sudoku",
+		"region": "Summation Sudoku",
+		"category": ["Summation Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 62: Arrow",
+		"region": "Summation Sudoku",
+		"category": ["Summation Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 65: X-Sums",
+		"region": "Summation Sudoku",
+		"category": ["Summation Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 85: To Me, My...",
+		"region": "Summation Sudoku",
+		"category": ["Summation Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 89: Made Ya LK",
+		"region": "Summation Sudoku",
+		"category": ["Summation Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 6: Between Sudoku",
+		"region": "Positional Sudoku",
+		"category": ["Positional Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 7: Fortress Sudoku",
+		"region": "Positional Sudoku",
+		"category": ["Positional Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 19: Point to Next",
+		"region": "Positional Sudoku",
+		"category": ["Positional Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 20: Thermo Sudoku",
+		"region": "Positional Sudoku",
+		"category": ["Positional Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 24: Revolution",
+		"region": "Positional Sudoku",
+		"category": ["Positional Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 27: Tilted Windmill",
+		"region": "Positional Sudoku",
+		"category": ["Positional Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 33: Palindromes",
+		"region": "Positional Sudoku",
+		"category": ["Positional Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 44: Irregular",
+		"region": "Positional Sudoku",
+		"category": ["Positional Sudoku"],
+		"requires": []
+	},
+	{
+		"region": "Parity Sudoku",
+		"name": "Puzzle 17: Consecutive Pairs",
+		"category": ["Parity Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 15: GAK",
+		"region": "Parity Sudoku",
+		"category": ["Parity Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 22: German Whispers",
+		"region": "Parity Sudoku",
+		"category": ["Parity Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 37: Hourglass",
+		"region": "Parity Sudoku",
+		"category": ["Parity Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 56: Consec Pairs",
+		"region": "Parity Sudoku",
+		"category": ["Parity Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 76: Diff Diffs",
+		"region": "Parity Sudoku",
+		"category": ["Parity Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 29: Trio",
+		"region": "Parity Sudoku",
+		"category": ["Parity Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 97: Odd/Even Sudoku",
+		"region": "Parity Sudoku",
+		"category": ["Parity Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 32: Mathrax",
+		"region": "Variant Sudoku",
+		"category": ["Variant Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 39: Clock Sudoku",
+		"region": "Variant Sudoku",
+		"category": ["Variant Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 45: Bent Diagonals Sudoku",
+		"region": "Variant Sudoku",
+		"category": ["Variant Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 47: Search Nine",
+		"region": "Variant Sudoku",
+		"category": ["Variant Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 48: Consecutive Circles Sudoku",
+		"region": "Variant Sudoku",
+		"category": ["Variant Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 49: SquareShapedBox",
+		"region": "Variant Sudoku",
+		"category": ["Variant Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 51: Wheel Sudoku",
+		"region": "Variant Sudoku",
+		"category": ["Variant Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 54: CL Sudoku",
+		"region": "Variant Sudoku",
+		"category": ["Variant Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 1: Renban/Quadruples",
+		"region": "Multi-Rule Sudoku",
+		"category": ["Multi-Rule Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 3: Ratio/Pairs/XV",
+		"region": "Multi-Rule Sudoku",
+		"category": ["Multi-Rule Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 10: Odd/Even Killer",
+		"region": "Multi-Rule Sudoku",
+		"category": ["Multi-Rule Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 16: Thermo Killer",
+		"region": "Multi-Rule Sudoku",
+		"category": ["Multi-Rule Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 18: Shot Thru the Heart",
+		"region": "Multi-Rule Sudoku",
+		"category": ["Multi-Rule Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 30: Between Killer",
+		"region": "Multi-Rule Sudoku",
+		"category": ["Multi-Rule Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 31: Near and Far",
+		"region": "Multi-Rule Sudoku",
+		"category": ["Multi-Rule Sudoku"],
+		"requires": []
+	},
+	{
+		"name": "Puzzle 50: Consec-Pairrow",
+		"region": "Multi-Rule Sudoku",
+		"category": ["Multi-Rule Sudoku"],
+		"requires": []
+	}
+]
