@@ -14,21 +14,25 @@ All you need for this is:
 - A download of the .apworld and .yaml file in the top level of this repository
 - The Archipelago Manual client found in the Announcements channel of the Maunal AP discord server.
 
-If you're hosting the world, you also need a functioning
-
 ## Getting set up
-First off, navigate to this Google Sheet that contains all of the puzzle references:
+Run the `generate.py` file to randomize your build. You can put in the total hours you hope to play for, and it will generate a randomized .apworld and .yaml file for you.
+
+Common breakpoints:
+- Sync Short: 2 hours (Sudoku really doesn't work below 2 hours)
+- Sync Long: 5 hours
+- Async Short: 7 hours
+- Async Long: 10 hours
+
+Once you have a .apworld and .yaml, navigate to this Google Sheet that contains all of the puzzle references:
 
 https://docs.google.com/spreadsheets/d/1eFc-khH4InTgSBb59i2g7-Fkp9HLMwrYQwlHs-mSJm4/edit?usp=sharing
 
 Make a copy of the sheet for yourself.
 
-All of the locations in this AP World reference specific puzzles on the "CTC GAS Tracking" tab. Navigate to this tab and expand all of the hidden rows to prepare to play!
+All of the locations in this AP World reference specific puzzles on the "CTC GAS Tracking" and "CTC GAS Leak Tracking" tabs. Navigate to these tabs and expand all of the hidden rows to prepare to play!
 
 ## Archipelago Rules
-Solving each puzzle (links to the puzzle are provided in the spreadsheet) constitutes a check. The goal is to locate 10 of the 15 "Gauntlet Key" items, and complete the Victory Gauntlet.
-
-The Victory Gauntlet consists of the first 3 puzzles (Box of Krop, German Whispers, and Point to Next) on the "CTC Gas Leak Tracking" tab of the spreadsheet. Eventually this will be randomized, but that functionality does not currently exist.
+Solving each puzzle (links to the puzzle are provided in the spreadsheet) constitutes a check. The goal is to locate a certain number of "Victory Key" items, and complete the Victory Puzzle. Both of these are listed in the generated YAML for your game.
 
 For this archipelago game, the puzzles are split into multiple regions. Each region has 8 puzzles, for a total of 48 locations.
 - Classic Sudoku: These are your classic 9x9 puzzles with no extra rules. This is the only region available at the beginning of the game.
@@ -42,9 +46,12 @@ All of the variant regions must be unlocked by finding their respective Key item
 
 ## Other items
 ### Useful items
-Reveal Puzzle Average Time (qty 10): This box allows you to click the "show time" checkmark in the spreadsheet, revealing the average time taken on a puzzle. This can help guide you toward completing easier puzzles first.
+Reveal Puzzle Average Time: This box allows you to click the "show time" checkmark in the spreadsheet, revealing the average time taken on a puzzle. This can help guide you toward completing easier puzzles first.
 
-Puzzle Skip (qty 5): This allows you to skip a particularly difficult puzzle and receive its check regardless. Puzzle skips cannot be used on the Victory Gauntlet.
+Puzzle Skip: This allows you to skip a particularly difficult puzzle and receive its check regardless. Puzzle skips cannot be used on the Victory Gauntlet.
 
 ### Traps
 Extra Puzzle: You may get assigned an extra puzzle. Once you finish your current puzzle, you must complete any assigned trap puzzles before you can move on to your next check puzzle. Puzzle Skips can be used to negate a trap if necessary.
+
+### Filler
+Party Hat: Wooo!
