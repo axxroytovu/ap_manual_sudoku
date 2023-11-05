@@ -1,12 +1,5 @@
 [
 	{
-		"name": "Final Challenge: GAS Leak Bonus Vol 1",
-		"region": "Multi-Rule Sudoku",
-		"victory": true,
-		"category": ["Victory Gauntlet"],
-		"requires": "|Gauntlet Key:10|"
-	},
-	{
 		"name": "Puzzle 21: Classic",
 		"region": "Classic Sudoku",
 		"category": ["Classic Sudoku"],
@@ -293,5 +286,9 @@
 		"region": "Multi-Rule Sudoku",
 		"category": ["Multi-Rule Sudoku"],
 		"requires": []
+	},
+	{
+		"name": "GAS Leak row 6 - Box of Krop",
+		"region": "Victory"
 	}
 ]

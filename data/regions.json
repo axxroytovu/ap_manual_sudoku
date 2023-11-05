@@ -23,5 +23,5 @@
 	"Multi-Rule Sudoku": 	{
 		"connects_to": [],
 		"requires": "|Multi-Rule Key|"
-}
+	}
 }
