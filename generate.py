@@ -8,8 +8,8 @@ import yaml
 seed = random.randrange(sys.maxsize)
 rng = random.Random(seed)
 
-with open("data/locations.json", 'r') as locations_json:
-    locations = json.load(locations_json)
+with open("data/locations.yaml", 'r') as locations_json:
+    locations = yaml.safe_load(locations_json)
 
 duration = float(input("How long do you want your game to last (hours):"))
 while duration < 2:
@@ -59,6 +59,9 @@ for loc in locations:
     if loc['region'] in regions and regions[loc["region"]]['count']:
         regions[loc['region']]['count'] -= 1
         final_locations.append(loc)
+
+for i in range(len(final_locations)):
+    final_locations[i]['category'] = [final_locations[i]['region']]
 
 if len(final_locations) != total_puzzles:
     raise ValueError(f"Improper number of puzzles: {len(final_locations)} vs {total_puzzles}")
