@@ -4,6 +4,7 @@ import shutil
 import sys
 import os
 import yaml
+from pathlib import Path
 
 seed = random.randrange(sys.maxsize)
 rng = random.Random(seed)
@@ -66,7 +67,7 @@ for i in range(len(final_locations)):
 if len(final_locations) != total_puzzles:
     raise ValueError(f"Improper number of puzzles: {len(final_locations)} vs {total_puzzles}")
 
-total_keys = round(total_puzzles/15)*5
+total_keys = round(total_puzzles/9)*3
 req_keys = round(total_keys*2/3)
 
 final_locations.append({
@@ -122,13 +123,16 @@ folder_name = game_name.lower()
 
 shutil.copytree("manual_ctcsudoku_axxroy", folder_name)
 
-with open(folder_name+"/data/items.json", 'w') as items_file:
+target_folder = Path(folder_name) / "data/"
+target_folder.mkdir(parents=True, exist_ok=True)
+
+with open(target_folder / "items.json", 'w') as items_file:
     json.dump(final_items, items_file)
-with open(folder_name+"/data/regions.json", 'w') as regions_file:
+with open(target_folder / "regions.json", 'w') as regions_file:
     json.dump(regions, regions_file)
-with open(folder_name+"/data/locations.json", 'w') as locations_file:
+with open(target_folder / "locations.json", 'w') as locations_file:
     json.dump(final_locations, locations_file)
-with open(folder_name+"/data/game.json", 'w') as game_file:
+with open(target_folder / "game.json", 'w') as game_file:
     json.dump({
         "game": f"CTCSudoku{seed%10000}",
         "creator": "Axxroy",

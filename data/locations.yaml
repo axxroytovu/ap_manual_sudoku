@@ -250,6 +250,8 @@
   region: Multi-Rule Sudoku
 - name: "Puzzle 128: Eeeeevil Sudoku"
   region: Classic Sudoku
+- name: "Puzzle 133: Classic Sudoku"
+  region: Classic Sudoku
 - name: "GAS Leak row 6 - Box of Krop"
   region: Victory
 - name: "GAS Leak row 7 - German Whispers"
